@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgb(245, 245, 245);
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+
+
+#cabecalho {
+    
+    background: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo {
+    padding: 10px;
+
+}
+
+#menu {
+    color: white;
+}
+
+a:link, a:visited {
+    display: block;
+    text-decoration: none;
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#cabecalho a:hover {
+
+    background: white;
+    color: #f7b600;
+    padding: 5px;
+}
+
+
+
+h1 {
+
+    margin: 0px;
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+
+#colortitle {
+    color: white;
+}
+
+#pagina-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.postagens {
+    width: 660px;
+    float: left;
+    /*margin: 0px auto;*/
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    color: #4e4e4e;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.area-lateral {
+    width: 240px;
+    
+    float: right;
+    /*margin: 0px auto;*/
+}
+
+.conteudo-lateral {
+    background: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    color: #565656;
+    background: #ccc;
+
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    background: #ccc;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f7b600;
+    
+}
+
+.marcadagua a:link {
+    padding: 0%;
+    margin: 0;
+    display: inline-block;
+}
+
+.marcadagua {
+    color: #ccc;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    background: rgb(70, 69, 69);
+    padding: 5px;
+    border: 1px solid black;
+}
+
+/*span {
+    font-size: 1.2em;
+    color: #f7b600;
+}*/
